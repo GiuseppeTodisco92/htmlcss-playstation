@@ -63,6 +63,8 @@ header {
 /*------------------
     MAIN
 -------------------*/
+
+/* sezione hero  */
 .hero{
     padding-top: 96px;
     color: white;
@@ -88,6 +90,17 @@ header {
     padding: 10px 0px;
 }
 
+/* sezione play 5 */
+
+.play_5{
+    width: 100%;
+    opacity: 50%;
+}
+
+.play_5:hover{
+    opacity: 1;
+
+}
 
 
 
@@ -105,5 +118,9 @@ header {
 @media screen and (max-width:576px){
     .col-xs-6 {
         width: calc(100% / 2);
+    }
+
+    .col-xs-3 {
+        width: calc(100% / 3);
     }
 }
