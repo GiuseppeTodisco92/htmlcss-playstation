@@ -1,0 +1,67 @@
+/*------------------
+    TYPO
+-------------------*/
+
+/*------------------
+    BUTTON
+-------------------*/
+.btn_custom {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn_bckground_grey {
+  background-color: #363636;
+}
+
+.btn_bckground_red {
+  background-color: #cd3d0f;
+}
+
+.btn_bckground_blue {
+  background-color: #2d64e6;
+}
+
+.btn_bckground_grey,
+.btn_bckground_red,
+.btn_bckground_blue {
+  color: white;
+}
+
+.btn_bckground_light_grey {
+  background-color: #d9dadc;
+  color: #2e65e6;
+}
+
+.btn_bckground_white {
+  background-color: white;
+  color: black;
+}
+
+/*------------------
+    HEADER
+-------------------*/
+header {
+  position: fixed;
+}
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-top img {
+  width: 80px;
+  padding: 10px 10px;
+}
+
+.dropdown-toggle::after {
+  color: lightgray;
+}
+
+/*------------------
+    MAIN
+-------------------*/
+
+/*------------------
+    FOOTER
+-------------------*/
