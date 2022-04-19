@@ -75,12 +75,35 @@ header {
     background-size: cover;
 }
 
+
 .returnal{
     width: 200px;
     padding-top: 300px;
 }
 
+.game{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+
+
 
 /*------------------
     FOOTER
 -------------------*/
+
+
+
+
+/*------------------
+    MEDIA
+-------------------*/
+
+@media screen and (max-width:576px){
+    .col-xs-6 {
+        width: calc(100% / 2);
+    }
+}
