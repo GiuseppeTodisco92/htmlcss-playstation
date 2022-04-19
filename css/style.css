@@ -94,12 +94,15 @@ header {
 
 .play_5{
     width: 100%;
+}
+.play_5_thumb{
+    width: 100% ;
     opacity: 50%;
 }
 
-.play_5:hover{
+.play_5_thumb:hover{
     opacity: 1;
-
+    border-bottom: 1px solid #4095da ;
 }
 
 
