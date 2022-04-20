@@ -84,20 +84,42 @@ header {
   position: fixed;
   width: 100%;
   z-index: 20;
+
+}
+.nav-link{
+    color: black;
+}
+
+.chevron{
+    width: 10px;
+}
+
+.nav-link:hover{
+    color: lightgray;
 }
 .header-top {
   display: flex;
   justify-content: flex-end;
+}
+.header-bottom i{
+    color:lightgray;
+    font-size: 10px;
+}
+.header-bottom a{
+    display: flex;
+    gap: 10px;
+
 }
 .header-top img {
   width: 80px;
   padding: 10px 10px;
 }
 
-.dropdown-toggle::after {
-  color: lightgray;
-}
 
+
+.lens{
+    width: 28px;
+}
 /*------------------
     MAIN
 -------------------*/
@@ -165,9 +187,7 @@ section.banner_takes_two{
 }
 
 /* sezione ps plus  */
-.ps_plus,.ps_now{
-    min-height: 260px;
-}
+
 .bk_ps_plus {
     background-color: #bebcbb;
 }
