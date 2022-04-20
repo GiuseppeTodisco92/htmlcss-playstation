@@ -141,11 +141,6 @@ header {
     background-image: url(../img/jumbo-bg.png);
 }
 
-.bkg_takes_two_img{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-}
-
-
 .returnal,.takes_two{
     width: 200px;
 }
@@ -165,16 +160,16 @@ header {
     box-shadow: 10px 15px 15px grey;
 }
 /* sezione play 5 */
+.play_5_thumb_box{
+    opacity: 50%;
+}
 
 .play_5,.play_4,.ps_plus_april{
     width: 100%;
 }
+
 .play_5_thumb{
     width: 50% ;
-}
-
-.play_5_thumb_box{
-    opacity: 50%;
 }
 
 .play_5_thumb_box:hover{
@@ -182,10 +177,12 @@ header {
     border-bottom: 1px solid #4095da ;
 }
 
-
 /* sezione takes two  */
 section.banner_takes_two{
     color: white;
+}
+.bkg_takes_two_img{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* sezione ps plus  */
@@ -218,12 +215,9 @@ section.banner_takes_two{
     transform: rotate(360deg);
 }
 
-
-
 /*------------------
     FOOTER
 -------------------*/
-
 footer {
     background-color: #00439c;
     color: white;
@@ -231,11 +225,6 @@ footer {
 
 .play_logo {
     width: 100px;
-
-}
-
-footer li {
-    list-style: none;
 }
 
 footer a {
@@ -246,11 +235,9 @@ footer a {
 footer a:hover{
     color: lightgray;
 }
-
 .globe {
     width: 24px;
 }
-
 .sie_logo {
     display: block;
     width: 150px;
