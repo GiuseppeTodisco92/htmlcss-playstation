@@ -21,9 +21,37 @@
   border: none;
 }
 
+.box_button{
+    padding: 1px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.border_gray:hover{
+    border: 1px solid #363636;
+}
+
+.border_red:hover{
+    border: 1px solid #cd3d0f;
+}
+
+.border_blue:hover{
+    border: 1px solid #2d64e6;
+}
+
+.border_light_gray:hover{
+    border: 1px solid #d9dadc;
+}
+
+.border_white:hover{
+    border: 1px solid white;
+}
+
 .btn_bckground_grey {
   background-color: #363636;
 }
+
 
 .btn_bckground_red {
   background-color: #cd3d0f;
@@ -102,23 +130,35 @@ header {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    padding: 10px 0px;
-}
+    transition: 0.3s;
 
+}
+.game:hover{
+    border: 1px solid #0072ce;
+    padding: 2px;
+    position: relative;
+    top: -5px;
+    box-shadow: 10px 15px 15px grey;
+}
 /* sezione play 5 */
 
 .play_5,.play_4,.ps_plus_april{
     width: 100%;
 }
 .play_5_thumb{
-    width: 100% ;
+    width: 50% ;
+}
+
+.play_5_thumb_box{
     opacity: 50%;
 }
 
-.play_5_thumb:hover{
+.play_5_thumb_box:hover{
     opacity: 1;
     border-bottom: 1px solid #4095da ;
 }
+
+
 /* sezione takes two  */
 section.banner_takes_two{
     color: white;
@@ -149,6 +189,11 @@ section.banner_takes_two{
 .social_logo {
     width: 100%;
     padding-top: 40px;
+    transition: 0.5s;
+}
+
+.social_logo:hover{
+    transform: rotate(360deg);
 }
 
 
@@ -157,4 +202,34 @@ section.banner_takes_two{
     FOOTER
 -------------------*/
 
+footer {
+    background-color: #00439c;
+    color: white;
+}
 
+.play_logo {
+    width: 100px;
+
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: lightgray;
+}
+
+.globe {
+    width: 24px;
+}
+
+.sie_logo {
+    display: block;
+    width: 150px;
+}
