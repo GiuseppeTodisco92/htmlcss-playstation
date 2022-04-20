@@ -125,6 +125,9 @@ section.banner_takes_two{
 }
 
 /* sezione ps plus  */
+.ps_plus{
+    min-height: 260px;
+}
 .bk_ps_plus {
     background-color: #bebcbb;
 }
@@ -135,23 +138,9 @@ section.banner_takes_two{
 }
 
 
+
 /*------------------
     FOOTER
 -------------------*/
 
 
-
-
-/*------------------
-    MEDIA
--------------------*/
-
-@media screen and (max-width:576px){
-    .col-xs-6 {
-        width: calc(100% / 2);
-    }
-
-    .col-xs-3 {
-        width: calc(100% / 3);
-    }
-}
