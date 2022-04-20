@@ -107,7 +107,7 @@ header {
 
 /* sezione play 5 */
 
-.play_5,.play_4{
+.play_5,.play_4,.ps_plus_april{
     width: 100%;
 }
 .play_5_thumb{
@@ -124,6 +124,15 @@ section.banner_takes_two{
     color: white;
 }
 
+/* sezione ps plus  */
+.bk_ps_plus {
+    background-color: #bebcbb;
+}
+
+.ps_plus_logo {
+    width: 60%;
+    padding: 30px 0px;
+}
 
 
 /*------------------
