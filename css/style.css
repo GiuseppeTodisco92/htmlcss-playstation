@@ -94,7 +94,7 @@ header {
 }
 
 
-.returnal{
+.returnal,.takes_two{
     width: 200px;
 }
 
@@ -125,7 +125,7 @@ section.banner_takes_two{
 }
 
 /* sezione ps plus  */
-.ps_plus{
+.ps_plus,.ps_now{
     min-height: 260px;
 }
 .bk_ps_plus {
@@ -135,6 +135,14 @@ section.banner_takes_two{
 .ps_plus_logo {
     width: 60%;
     padding: 30px 0px;
+}
+
+/* sezione ps now  */
+.ps_now{
+    color: white;
+}
+.bk_ps_now {
+    background-color: #161c3b;
 }
 
 
