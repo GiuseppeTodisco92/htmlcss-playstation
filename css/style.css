@@ -32,23 +32,28 @@ body {
 }
 
 .border_gray:hover{
-    border: 1px solid #363636;
+    border: 2px solid #363636;
+    margin: -2px;
 }
 
 .border_red:hover{
-    border: 1px solid #cd3d0f;
+    border: 2px solid #cd3d0f;
+    margin: -2px;
 }
 
 .border_blue:hover{
-    border: 1px solid #2d64e6;
+    border: 2px solid #2d64e6;
+    margin: -2px;
 }
 
 .border_light_gray:hover{
-    border: 1px solid #d9dadc;
+    border: 2px solid #c4c6c7;
+    margin:-2px;
 }
 
 .border_white:hover{
-    border: 1px solid white;
+    border: 2px solid white;
+    margin: -2px;
 }
 
 .btn_bckground_grey {
@@ -116,12 +121,8 @@ header {
 .nav_link{
     color: black;
     text-decoration: none;
-
 }
 
-.nav_link:hover{
-    color:grey;
-}
 /*------------------
     MAIN
 -------------------*/
@@ -156,8 +157,8 @@ header {
     border: 1px solid #0072ce;
     padding: 2px;
     position: relative;
-    top: -5px;
-    box-shadow: 10px 15px 15px grey;
+    top: -10px;
+    box-shadow: 5px 5px 15px grey;
 }
 /* sezione play 5 */
 .play_5_thumb_box{
@@ -175,6 +176,7 @@ header {
 .play_5_thumb_box:hover{
     opacity: 1;
     border-bottom: 1px solid #4095da ;
+    margin-bottom: -1px;
 }
 
 
