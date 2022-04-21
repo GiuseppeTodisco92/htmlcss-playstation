@@ -60,6 +60,11 @@ body {
   background-color: #363636;
 }
 
+.btn_bckground_grey:hover {
+    background-color: #5f5e5e;
+  }
+
+
 
 .btn_bckground_red {
   background-color: #cd3d0f;
@@ -153,7 +158,12 @@ header {
     transition: 0.3s;
 
 }
-.game:hover{
+.game_active{
+    border: 1px solid #0072ce;
+    padding: 2px;
+}
+
+.game_select:hover{
     border: 1px solid #0072ce;
     padding: 2px;
     position: relative;
@@ -161,8 +171,13 @@ header {
     box-shadow: 5px 5px 15px grey;
 }
 /* sezione play 5 */
+.play_5_active{
+    min-height: 200px;
+    border-bottom: 1px solid #4095da ;
+}
 .play_5_thumb_box{
     opacity: 50%;
+    min-height: 200px;
 }
 
 .play_5,.play_4,.ps_plus_april{
