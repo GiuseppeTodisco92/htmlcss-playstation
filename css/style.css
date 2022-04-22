@@ -8,7 +8,7 @@
 
 .py_banner{
     padding-top: 400px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 body {
@@ -155,7 +155,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    transition: 0.3s;
+    transition: 1s;
 
 }
 .game_active{
@@ -167,7 +167,8 @@ header {
     border: 1px solid #0072ce;
     padding: 2px;
     position: relative;
-    top: -10px;
+    margin-top: -15px;
+    top: 0px;
     box-shadow: 5px 5px 15px grey;
 }
 /* sezione play 5 */
